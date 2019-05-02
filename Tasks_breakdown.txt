@@ -3,17 +3,32 @@ Breakdown of tasks:
 
 TASK 1: Data Retrieving 
 
-1. Select dataset:  Tennis data (uploaded) or Occupancy dataset (backup) .   <- DONE
+1. Select dataset:  Occupancy dataset (backup) .   <- DONE
 2. Select goal of project.
-
-
 
 
 TASK 2: Data Exploration
 
 1. Explore columns (univariate exploration)
+
+date time year-month-day hour:minute:second SD/MG
+Temperature, in Celsius MG
+Relative Humidity, % MG
+Light, in Lux SD
+CO2, in ppm SD
+Humidity Ratio, Derived quantity from temperature and relative humidity, in kgwater-vapor/kg-air  MG
+
+
 2. Explore relationships between pairs of columns (bivariate exploration)
   - Graph
+  SD: light vs co2
+      light vs temp
+      co2 vs humidity
+      
+  MG: temp vs humidity
+      humidity vs humidity ratio
+      time vs light
+      
   - Hypothesis
   
 
