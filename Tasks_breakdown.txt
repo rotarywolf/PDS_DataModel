@@ -11,22 +11,22 @@ TASK 2: Data Exploration
 
 1. Explore columns (univariate exploration)
 
-date time year-month-day hour:minute:second SD/MG
-Temperature, in Celsius MG
+date time year-month-day hour:minute:second SD/MG Y
+Temperature, in Celsius MG Y
 Relative Humidity, % MG
-Light, in Lux SD
-CO2, in ppm SD
+Light, in Lux SD Y
+CO2, in ppm SD Y
 Humidity Ratio, Derived quantity from temperature and relative humidity, in kgwater-vapor/kg-air  MG
 
 
 2. Explore relationships between pairs of columns (bivariate exploration)
   - Graph
-  SD: light vs co2
-      light vs temp
-      co2 vs humidity
+  SD: light vs co2 Y
+      light vs temp Y 
+      co2 vs humidity Y
       
-  MG: temp vs humidity
-      humidity vs humidity ratio
+  MG: temp vs humidity Y
+      humidity vs humidity ratio Y
       time vs light
       
   - Hypothesis
@@ -55,6 +55,20 @@ Introduction:
         
 - Methodology: SD
        Setup of the tasks. Sensor information
+
+
+
+- Data model:
+
+Decision Tree: - Parameters to work around:
+1) max features to use ~ (4*3 =12)
+2) Depth of tree  ~ (9-10 , 6 previously used)
+
+Train-test split according to guidelines.
+
+- Knearest neighbour:
+
+
 
 - Results
 - Discussion
