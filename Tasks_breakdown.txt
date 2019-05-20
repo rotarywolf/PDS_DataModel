@@ -38,15 +38,24 @@ TASK 3: Data Modellling
 1. Select model: Classification . <- DONE
 2. Split into training & test set.
 3. Train the model
-4. Test accuracy.
-
-
-
+4. Test accura
 TASK 4: Report
 
 - Cover page, table of contents, abstract, reference
-- Intro
-- Methodology
+- Intro: SD
+Introduction:
+- Why is this topic important - Energy consumption reduction potential from having sensors that don't require human control
+- Look at individual variables and why this could be a good indicator of human presence in an office (eg. humidity, CO2 - respiration etc., Light . )
+- Past literature in the topic: Candanedo lists a few past projects that have done similar things with sensors
+        What were the reported accuracies/ precision from the models that have been used before?
+        What features did they use? (CO2, light, temperature, DateTime(nobody), humidity ??)
+        What models they used? (benefits and drawbacks) 
+- Hypothesis: 
+        Both classification models, Knearest neighbours and Decision Trees, will be able to accurately predict occupancy of an office room.
+        
+- Methodology: SD
+       Setup of the tasks. Sensor information
+
 - Results
 - Discussion
 - Conclusion
